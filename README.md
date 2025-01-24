@@ -15,24 +15,6 @@ This repository documents my journey and resources preparing for technical inter
 - Complete systematic study of DSA topics
 - Practice system design principles
 
-## 📂 Repository Structure
-```
-├── data_structures/
-│   ├── arrays/
-│   ├── hash_tables/
-│   ├── trees/
-│   └── graphs/
-├── algorithms/
-│   ├── sorting/
-│   ├── searching/
-│   └── dynamic_programming/
-├── leetcode_solutions/
-│   ├── easy/
-│   ├── medium/
-│   └── hard/
-└── system_design/
-```
-
 ## 🗺️ Study Plan Overview
 <details>
 <summary>Click to expand weekly breakdown</summary>
