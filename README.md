@@ -83,18 +83,11 @@ This repository documents my journey and resources preparing for technical inter
 - **Version Control:** Git
 
 ## 📝 Notes and Resources
-### Books I'm Following
-1. Cracking the Coding Interview
-2. Elements of Programming Interviews in Python
-3. Grokking Algorithms
 
 ### Online Resources
 - [LeetCode](https://leetcode.com/)
 - [HackerRank](https://www.hackerrank.com/)
 - [AlgoExpert](https://www.algoexpert.io/)
-
-## 💡 Key Learnings
-*This section will be updated as I progress through my study plan*
 
 ## 🤝 Contributing
 While this is a personal journey, I welcome:
@@ -104,8 +97,8 @@ While this is a personal journey, I welcome:
 - Study tips
 
 ## 📞 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin-url)
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](your-github-url)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santiagoddiaz)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/sddiaz)
 
 ## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
