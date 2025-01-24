@@ -1,14 +1,12 @@
 # Tech-Interview-Mastery
 Data Structures, Algorithms, System's Design, and Computer Science Fundamentals. 
 
-# 🚀 Data Structures & Algorithms Study Journey
+# A Study Journal
 ![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-> *"The only way to learn a new programming language is by writing programs in it."* - Dennis Ritchie
-
 ## 📚 About This Repository
-This repository documents my journey preparing for technical interviews, focusing on mastering Data Structures and Algorithms. It serves as both a learning log and a resource for others on similar paths.
+This repository documents my journey and resources preparing for technical interviews, focusing on mastering Data Structures and Algorithms. It serves as both a learning log and a resource for others on similar paths.
 
 ### 🎯 Goals
 - Master fundamental data structures and their implementations
