@@ -16,8 +16,7 @@ This repository documents my journey and resources preparing for technical inter
 - Practice system design principles
 
 ## 🗺️ Study Plan Overview
-<details>
-<summary>Click to expand weekly breakdown</summary>
+
 
 ### 1. Foundations
 - Sorting Algorithms
@@ -52,7 +51,6 @@ This repository documents my journey and resources preparing for technical inter
 - Bit Manipulation
 - Mock Interviews
 - Company-Specific Preparation
-</details>
 
 ## 📈 Progress Tracking
 
