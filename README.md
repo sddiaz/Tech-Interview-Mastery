@@ -26,6 +26,7 @@ This repository documents my journey and resources preparing for technical inter
 - Stack
 - Two-Pointer
 - Sliding Window
+- Binary Search
 
 ### 2. Trees
 - Linked Lists
@@ -47,6 +48,8 @@ This repository documents my journey and resources preparing for technical inter
 
 ### 5. Advanced Topics & Practice
 - ([System Design](https://www.techinterviewhandbook.org/system-design/))
+- Combinatorics, Math and Geometry.
+- Bit Manipulation
 - Mock Interviews
 - Company-Specific Preparation
 </details>
