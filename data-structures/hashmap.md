@@ -50,30 +50,37 @@ The primary operations are **insert**, **lookup**, and **delete**, typically wit
 A simple example of a **HashMap** implementation with chaining.
 
 ```python
-class HashMap:
-    def __init__(self, size=10):
+class HashMap: 
+    def __init__(self, size):
+        # Initialize Size
         self.size = size
-        self.table = [[] for _ in range(size)] 
-
-    def hash(self, key):
-        return sum(ord(char) for char in str(key)) % self.size
-
+        # Make a list of lists to hold key-values
+        self.table = [[] for _ in range(size)]
+    
     def add(self, key, value):
-        index = self.hash(key)
-        self.table[index].append((key, value)) 
-
-    def get(self, key):
-        index = self.hash(key)
-        for stored_key, stored_value in self.table[index]:
-            if stored_key == key:
-                return stored_value
-        return None  # Key not found
-
-    def remove(self, key):
-        index = self.hash(key)
-        for i, (stored_key, stored_value) in enumerate(self.table[index]):
-            if stored_key == key:
+        index = hash(key) % self.size
+        # Check if key exists and update value
+        for i, (k, v) in enumerate(self.table[index]):
+            # If the key already exists, update. 
+            if (k == key):
+                self.table[index][i] = (key, value)
+                return
+        self.table[index].append((key, value))
+        return None
+    
+    def remove(self, key): 
+        index = hash(key) % self.size 
+        for i, (k, v) in enumerate(self.table[index]):
+            if (k == key):
                 del self.table[index][i]
                 return
-        return None #Key not found
+        return None
+
+    def get(self, key):
+        index = hash(key) % self.size
+        for k, v in self.table[index]:
+            if k == key:
+                return v
+        return None
+
         
