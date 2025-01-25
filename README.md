@@ -19,25 +19,34 @@ This repository documents my journey and resources preparing for technical inter
 <details>
 <summary>Click to expand weekly breakdown</summary>
 
-### Weeks 1-2: Foundations
-- Arrays & Sorting Algorithms
-- Hash Tables & String Manipulation
+### 1. Foundations
+- Sorting Algorithms
+- Hash Tables
+- Arrays & Strings
+- Stack
+- Two-Pointer
+- Sliding Window
 
-### Weeks 3-4: Trees
-- Binary Trees & BST
-- Advanced Trees (AVL, Tries)
+### 2. Trees
+- Linked Lists
+- Binary Search Trees
+- Tries
+- Advanced Trees (AVL, Red-Black, Self-Balancing)
 
-### Weeks 5-6: Graphs
-- Basic Graph Algorithms
-- Advanced Graph Theory
+### 3. Graphs
+- Implementations: 
+  - objects and pointers, matrix, and adjacency list.
+- Traversal Algorithms
 
-### Weeks 7-8: Dynamic Programming
+### 4. Dynamic Programming
+- Recursion
+- Permutations
+- Backtracking
 - 1D Dynamic Programming
 - 2D Dynamic Programming
 
-### Weeks 9-16: Advanced Topics & Practice
-- Backtracking
-- System Design
+### 5. Advanced Topics & Practice
+- ([System Design](https://www.techinterviewhandbook.org/system-design/))
 - Mock Interviews
 - Company-Specific Preparation
 </details>
@@ -45,9 +54,8 @@ This repository documents my journey and resources preparing for technical inter
 ## 📈 Progress Tracking
 
 ### LeetCode Stats
-- Easy: 0/50
-- Medium: 0/100
-- Hard: 0/50
+
+- Problems: 0/200
 
 ### Key Implementations
 - [ ] Merge Sort
