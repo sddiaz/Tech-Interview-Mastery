@@ -53,38 +53,27 @@ A simple example of a **HashMap** implementation with chaining.
 class HashMap:
     def __init__(self, size=10):
         self.size = size
-        self.table = [[] for _ in range(self.size)]  # Chaining using lists
+        self.table = [[] for _ in range(size)] 
 
-    def hash_function(self, key):
-        return hash(key) % self.size
+    def hash(self, key):
+        return sum(ord(char) for char in str(key)) % self.size
 
-    def put(self, key, value):
-        index = self.hash_function(key)
-        for idx, pair in enumerate(self.table[index]):
-            if pair[0] == key:
-                self.table[index][idx] = (key, value)
-                return
-        self.table[index].append((key, value))
+    def add(self, key, value):
+        index = self.hash(key)
+        self.table[index].append((key, value)) 
 
     def get(self, key):
-        index = self.hash_function(key)
-        for pair in self.table[index]:
-            if pair[0] == key:
-                return pair[1]
+        index = self.hash(key)
+        for stored_key, stored_value in self.table[index]:
+            if stored_key == key:
+                return stored_value
         return None  # Key not found
 
     def remove(self, key):
-        index = self.hash_function(key)
-        for idx, pair in enumerate(self.table[index]):
-            if pair[0] == key:
-                del self.table[index][idx]
+        index = self.hash(key)
+        for i, (stored_key, stored_value) in enumerate(self.table[index]):
+            if stored_key == key:
+                del self.table[index][i]
                 return
-        return None  # Key not found
-
-# Example usage:
-hashmap = HashMap()
-hashmap.put("apple", 10)
-hashmap.put("banana", 20)
-print(hashmap.get("apple"))  # 10
-hashmap.remove("banana")
-print(hashmap.get("banana"))  # None
+        return None #Key not found
+        
